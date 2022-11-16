@@ -28,8 +28,10 @@ export default function Home({ allData }) {
          <li>The post is <em>{content}</em></li>
          <li>Date created: <strong>{date}</strong></li>
          <li>Last modified: {modify}</li>
+          <li><a href={link}>Go to Post</a></li>
          </ul>
-         <Link href={`/${id}`} key={id}><a>More Info</a></Link>
+                  {/* <Link href={`/${id}`} key={id}><a>More Info</a></Link> */}
+
          </>
   )
          }
